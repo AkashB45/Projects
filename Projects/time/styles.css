@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(182, 181, 196);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 71%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time
+{
+    color: aliceblue;
+    padding: 2%;
+    border: 15px solid white;
+    font-size: 100px;
+    border-radius: 15px;
+  
+}
+@media (max-width:560px)
+{
+#time
+{
+    
+    padding: 2%;
+    border: 10px solid white;
+    font-size: 80px;
+    
+}
+}
+@media (max-width:450px)
+{
+#time
+{
+    
+    padding: 2%;
+    border: 5px solid white;
+    font-size: 50px;
+    
+}
+}
