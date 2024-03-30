@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "checked": false,
+      "body": "Eat"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "body": "Sleep"
+    }
+  ]
+}
